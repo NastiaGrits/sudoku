@@ -1,0 +1,30 @@
+.inputWrapper, .resultWrapper {
+    margin: 20px;
+
+    width: 465px;
+    height: 465px;
+    border: 1px solid #000;
+}
+
+.inputContainer, .resultContainer {
+    float: left;
+    border: 1px solid #000;
+    width: 153px;
+    height: 153px;
+}
+
+.inputContainer > div, .resultContainer > div {
+    border: 1px solid #000;
+    float: left;
+    width: 49px;
+    height: 49px;
+    float: left;
+}
+
+.inputContainer > div > input {
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+}
